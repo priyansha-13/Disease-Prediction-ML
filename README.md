@@ -7,7 +7,7 @@ The project is designed for learning and academic purposes and focuses on unders
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 The main objective of this project is to:
 - Understand supervised machine learning
@@ -18,7 +18,7 @@ The main objective of this project is to:
 
 ---
 
-## 🧠 Machine Learning Problem Type
+## Machine Learning Problem Type
 
 - **Learning Type:** Supervised Learning  
 - **Problem Type:** Multiclass Classification  
@@ -28,7 +28,7 @@ This is a multiclass classification problem because the output can be one of man
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 - **Source:** Kaggle – Disease Prediction Using Machine Learning dataset  
 
@@ -46,7 +46,7 @@ Two datasets are used:
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 Before training the model, the dataset is cleaned to ensure consistency.
 
@@ -59,7 +59,7 @@ This step is important because machine learning models require identical feature
 
 ---
 
-## 🔀 Feature and Label Separation
+## Feature and Label Separation
 
 The dataset is split into:
 - **Features (X):** All symptom columns (input data)
@@ -69,7 +69,7 @@ This separation allows the model to learn the relationship between symptoms and 
 
 ---
 
-## 🌲 Model Selection: Random Forest Classifier
+## Model Selection: Random Forest Classifier
 
 Random Forest is an ensemble learning algorithm that:
 - Builds multiple decision trees
@@ -84,7 +84,7 @@ Random Forest is an ensemble learning algorithm that:
 
 ---
 
-## 🏋️ Model Training
+##  Model Training
 
 The Random Forest model is trained using the training dataset.
 
@@ -97,7 +97,7 @@ The trained model stores this knowledge for future predictions.
 
 ---
 
-## 📊 Model Evaluation
+##  Model Evaluation
 
 The trained model is evaluated using the testing dataset.
 
@@ -113,7 +113,7 @@ This indicates strong performance for a learning-based project.
 
 ---
 
-## 🧪 User Input Disease Prediction (Interactive Feature)
+##  User Input Disease Prediction (Interactive Feature)
 
 In addition to dataset-based evaluation, a user-input prediction feature is implemented.
 
@@ -128,3 +128,4 @@ In addition to dataset-based evaluation, a user-input prediction feature is impl
 ```python
 user_symptoms = ["fever", "cough", headache"]
 predict_disease(user_symptoms)
+
